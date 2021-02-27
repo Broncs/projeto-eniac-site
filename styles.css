@@ -323,4 +323,8 @@ header nav ul li {
   .btn-primary:active {
     transform: scale(0.8);
   }
+  .footer-logo {
+    width: 30px;
+    margin-bottom: 10px;
+  }
 }
