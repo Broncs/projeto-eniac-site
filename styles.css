@@ -87,10 +87,12 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  /* height: 60px; */
 }
 header .nav-logo {
-  font-size: 2rem;
+  padding: 1rem 0;
+  margin: 0;
+  width: 50px;
 }
 header nav ul {
   display: flex;
@@ -260,10 +262,22 @@ header nav ul li {
   font-size: 20px;
 }
 
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  width: 50px;
+  filter: brightness(0);
+  filter: brightness(1000);
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 720px) {
   .showcase-wrapper {
     padding: 25% 0;
     text-align: center;
+    justify-content: center;
   }
 
   .showcase-wrapper h1 {
