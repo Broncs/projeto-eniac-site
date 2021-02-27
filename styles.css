@@ -12,6 +12,19 @@
   --white: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+html:focus {
+  outline: none;
+}
+
+@media (prefers-recuded-motion) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -80,6 +93,26 @@ header {
 }
 .btn:hover {
   background-color: rgb(170, 2, 2);
+}
+
+.rounded-btn {
+  position: fixed;
+
+  background-color: var(--white);
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid var(--red);
+  text-align: center;
+  line-height: 0;
+  cursor: pointer;
+  z-index: 100;
+  display: none;
+}
+
+.show-btn {
+  display: block;
 }
 
 /* nAVBAR */
