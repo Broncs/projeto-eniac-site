@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://kit.fontawesome.com/ea4b2d4287.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Restaurante</title>
+  </head>
+  <body>
+    <header>
+      <div class="container wrapper">
+        <nav>
+          <h2 class="nav-logo">logo</h2>
+          <ul>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="showcase-wrapper">
+          <div>
+            <h1>The Sunday Nite</h1>
+            <p>Delicious food for every mood</p>
+            <button class="btn">faça seu pedido</button>
+          </div>
+          <div>
+            <img src="./assets/main-prato.png" alt="prato principal" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre">
+      <div class="container">
+        <div class="about-section-wrapper">
+          <div class="about-img-wrapper">
+            <img src="./assets/hamburger.png" alt="hamburger" />
+          </div>
+          <div class="about-text-wrapper">
+            <h2>All About TSB</h2>
+            <p>
+              we havbe been serving irresistible comfort food since 1999. Our
+              mission is to keep you smiling with every bite.
+            </p>
+            <p>treat yourself to a feel-good meal today.</p>
+            <button class="btn">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ofertas">
+      <div class="container">
+        <h2>What we offer</h2>
+        <p>Curious? Here are our most popular menu items.</p>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-heart fa-2x"></i>
+            <img src="./assets/items-hamburger.png" alt="hamburger" />
+            <p>Gourmet burgers</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="item">
+            <i class="fas fa-heart fa-2x"></i>
+            <img src="./assets/items-frango.png" alt="frango" />
+            <p>Gourmet burgers</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="item">
+            <i class="fas fa-heart fa-2x"></i>
+            <img src="./assets/items-suco.png" alt="suco" />
+            <p>Gourmet burgers</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="contato-wrapper">
+          <div class="contato-img-wrapper">
+            <img src="./assets/footer-prato.png" alt="prato" />
+          </div>
+          <div>
+            <h2>Contact Us</h2>
+            <form method="POST" class="form">
+              <div class="form-item">
+                <input
+                  placeholder="Nome"
+                  type="text"
+                  name="nome"
+                  class="nome"
+                />
+              </div>
+              <div class="form-item">
+                <input
+                  placeholder="Sobrenome"
+                  type="text"
+                  name="sobrenome"
+                  class="sobrenome"
+                />
+              </div>
+              <div class="form-item">
+                <input
+                  placeholder="Email"
+                  name="email"
+                  type="email"
+                  class="email"
+                />
+              </div>
+
+              <div class="form-item">
+                <input
+                  placeholder="Telefone"
+                  name="telefone"
+                  type="number"
+                  class="telefone"
+                />
+              </div>
+
+              <div class="form-item">
+                <textarea
+                  placeholder="Mensagem"
+                  name="mensagem"
+                  id="mensagem"
+                  rows="10"
+                  class="mensagem"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary">enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+            <h2>LOGO</h2>
+           <ul class="social-medias">
+             <li><a href="#"><i class="fab fa-facebook-f"></a></i></li>
+             <li><a href="#"><i class="fab fa-instagram"></a></i></li>
+             <li><a href="#"><i class="fab fa-whatsapp"></a></i></li>
+           </ul>
+           <small>Copyright &copy; 2021 All Rights Reserved.</small>
+        </div>
+        </div>
+    </footer>
+  </body>
+</html>
