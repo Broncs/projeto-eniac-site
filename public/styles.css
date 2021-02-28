@@ -136,6 +136,9 @@ header nav ul {
 header nav ul li {
   margin: 0 20px;
 }
+header nav ul li:hover {
+  font-weight: 500;
+}
 
 .showcase-wrapper {
   display: flex;
@@ -241,9 +244,25 @@ header nav ul li {
   border-radius: 5px;
   font-size: 1.2rem;
 }
-
 .form-item textarea {
   resize: vertical;
+}
+
+/* HANDLE ERROR */
+.form-item input.error {
+  border: 1px solid #e74c3c;
+}
+.form-item textarea.error {
+  border: 2px solid rgb(228, 118, 118);
+}
+
+/* ------- HANDLE SUCCESS ---------  */
+.form-item input.success {
+  border: 1px solid #2ecc71;
+}
+
+.form-item textarea.success {
+  border: 2px solid #2ecc71;
 }
 
 .btn-primary {
